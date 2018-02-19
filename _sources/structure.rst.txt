@@ -1,0 +1,90 @@
+Structure
+#########
+
+.. code-block:: rst
+
+    Part
+    ####
+
+Chapter
+*******
+
+|arrow-down|
+
+.. code-block:: rst
+
+    Chapter
+    *******
+
+Heading 1
+=========
+
+|arrow-down|
+
+.. code-block:: rst
+
+    Heading 1
+    =========
+
+Heading 2
+---------
+
+|arrow-down|
+
+.. code-block:: rst
+
+    Heading 2
+    ---------
+
+Heading 3
+^^^^^^^^^
+
+|arrow-down|
+
+.. code-block:: rst
+
+    Heading 3
+    ^^^^^^^^^
+
+Heading 4
+"""""""""
+
+|arrow-down|
+
+.. code-block:: rst
+
+    Heading 4
+    """""""""
+
+Files
+*****
+
+.. code-block:: rst
+
+    Title
+    =====
+
+    Contents:
+
+    .. toctree::
+    :maxdepth: 2
+
+           file_1.rst
+           file_2.rst
+           file_3.rst
+           file_4.rst
+
+    Indices and tables
+    ==================
+
+    * :ref:`genindex`
+    * :ref:`modindex`
+    * :ref:`search`
+
+.. |arrow-right| image:: images/arrow_right.png
+
+.. |arrow-left| image:: images/arrow_left.png
+
+.. |arrow-down| image:: images/arrow_down.png
+
+.. |arrow-up| image:: images/arrow_up.png

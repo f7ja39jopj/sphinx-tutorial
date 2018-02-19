@@ -1,0 +1,14 @@
+Credit
+======
+
+http://sphinx-doc.org/
+
+http://www.readthedocs.org/
+
+https://github.com/snide/sphinx_rtd_theme/
+
+http://build-me-the-docs-please.readthedocs.io/en/latest/index.html
+
+https://youtu.be/oJsUvBQyHBs
+
+http://www.iconsdb.com/

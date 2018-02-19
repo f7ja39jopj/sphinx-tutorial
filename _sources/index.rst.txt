@@ -1,0 +1,19 @@
+Sphinx tutorial
+===============
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+   setup
+   structure
+   format
+   credit
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

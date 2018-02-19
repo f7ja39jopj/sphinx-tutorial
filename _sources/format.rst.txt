@@ -1,0 +1,172 @@
+Format
+======
+
+**bold** |arrow-right| \**bold\**
+
+*italic* |arrow-right| \*italic\*
+
+``monospace`` |arrow-right| \``monospace\``
+
+`External hyperlink to Google <http://www.google.com/>`_ |arrow-right| \`External hyperlink to Google \<http://www.google.com/\>`_
+
+http://www.google.com/ |arrow-right| http://www.google.com/
+
+.. code-block:: java
+
+    public class Person {
+        private String name;
+        private String surname;
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getName() {
+            return this.name;
+        }
+
+        public void setSurname(String surname) {
+            this.surname = surname;
+        }
+
+        public String getSurname() {
+            return this.surname;
+        }
+    }
+
+|arrow-down|
+
+.. code-block:: rst
+
+    .. code-block:: java
+
+        public class Person {
+            private String name;
+            private String surname;
+
+            public void setName(String name) {
+                this.name = name;
+            }
+
+            public String getName() {
+                return this.name;
+            }
+
+            public void setSurname(String surname) {
+                this.surname = surname;
+            }
+
+            public String getSurname() {
+                return this.surname;
+            }
+        }
+
+.. literalinclude:: code/Person.java
+    :language: java
+    :linenos:
+    :emphasize-lines: 1, 13-15
+
+|arrow-down|
+
+.. code-block:: rst
+
+    .. literalinclude:: code/Person.java
+        :language: java
+        :linenos:
+        :emphasize-lines: 1, 13-15
+
+.. attention:: Attention text
+
+|arrow-down|
+
+.. code-block:: rst
+
+    .. attention:: Attention text
+
+.. caution:: Caution text
+
+|arrow-down|
+
+.. code-block:: rst
+
+    .. caution:: Caution text
+
+.. danger:: Danger text
+
+|arrow-down|
+
+.. code-block:: rst
+
+    .. danger:: Danger text
+
+.. error:: Error text
+
+|arrow-down|
+
+.. code-block:: rst
+
+    .. error:: Error text
+
+.. hint:: Hint text
+
+|arrow-down|
+
+.. code-block:: rst
+
+    .. hint:: Hint text
+
+.. important:: Important text
+
+|arrow-down|
+
+.. code-block:: rst
+
+    .. important:: Important text
+
+.. note:: Note text
+
+|arrow-down|
+
+.. code-block:: rst
+
+    .. note:: Note text
+
+.. tip:: Tip text
+
+|arrow-down|
+
+.. code-block:: rst
+
+    .. tip:: Tip text
+
+.. warning:: Warning text
+
+|arrow-down|
+
+.. code-block:: rst
+
+    .. warning:: Warning text
+
+|arrow-right| |arrow-left| |arrow-down| |arrow-up|
+
+|arrow-down|
+
+.. code-block:: rst
+
+    |arrow-right| |arrow-left| |arrow-down| |arrow-up|
+
+    .. |arrow-right| image:: images/arrow_right.png
+
+    .. |arrow-left| image:: images/arrow_left.png
+
+    .. |arrow-down| image:: images/arrow_down.png
+
+    .. |arrow-up| image:: images/arrow_up.png
+
+.. |arrow-right| image:: images/arrow_right.png
+
+.. |arrow-left| image:: images/arrow_left.png
+
+.. |arrow-down| image:: images/arrow_down.png
+
+.. |arrow-up| image:: images/arrow_up.png
